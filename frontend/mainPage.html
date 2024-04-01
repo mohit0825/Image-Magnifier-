@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="mainPage.css">
+    <style>
+        .main-title {
+            text-align: center;
+            font-size: 2em; /* Adjust size as needed */
+            margin-top: 50px; /* Adjust the margin-top value to move it down */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="mainPage.html" id="homeLink">Introduction</a>
+            <a href="awarenessPage.html" id="awarenessLink">About</a>
+            <a href="template.html" id="recycleOrNotLink">Image Magnifier</a>
+            <a href="miniGame.html" id="miniGameLink">Mini Game</a>
+        </div>
+        
+        <div class="main-title">
+            <h1><span class="auto-type-title"></span></h1>
+        </div>
+
+        <div class="bg-image">
+            <video id="background-video" autoplay loop muted >
+                <source src="./images/ocean-bg.mp4" type="video/mp4">
+            </video> 
+            <div class="main-heading">
+                <h1><span class="auto-type1"></span></h1>
+            </div>
+            <div class="tech">
+                <span id="sub-heading">With ML-Assisted Technologies</span>
+                <div>
+                    <button id="try-button">Try It Out</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Image Magnifier</h2>
+                <div class="box-img" style="background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/relax-definition-magnifier-showing-less-stress-and-tense_zJCEtGwO_SB_PM.jpg');"></div>
+                <p>Learn More</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Purpose</h2>
+                <div class="box-img" style="background-image: url(https://wiresharklabs.files.wordpress.com/2013/11/lesson-6-pixel.jpg?w=614);"></div>
+                <p>Learn More</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Problem We Are Facing</h2>
+                <div class="box-img" style="background-image: url(https://www.it-jim.com/wp-content/uploads/2016/02/People-tracking-illustation.jpg);"></div>
+                <p>Learn More</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('.auto-type-title', {
+            strings: ["Welcome To Image Magnifier"],
+            typeSpeed: 100, // Increase typing speed for slower animation
+            loop: true // loop the animation
+        });
+    </script>
+</body>
+</html>
