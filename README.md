@@ -8,7 +8,7 @@ An interactive **Image Magnifier** built using **HTML & CSS**, allowing users to
 - 🎨 **Smooth UI** – Uses CSS to create a sleek and smooth zooming effect.
 - 🔧 **Lightweight & Responsive** – No JavaScript needed, only HTML & CSS.
 
-📢 Contributing
+## 📢 Contributing
 
 Feel free to fork this repo, enhance the project, and create a pull request! 🚀
 
